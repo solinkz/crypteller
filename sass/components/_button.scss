@@ -1,0 +1,17 @@
+.btn{
+
+    &-sm{
+        font-size: .9rem  !important;
+    }
+
+    &-secondary{
+        background-color: $light;
+        color: $primary;
+        border: none;
+
+        &:hover{
+            background-color: $primary;
+            color: $white;
+        }
+    }
+}

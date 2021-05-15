@@ -1,0 +1,32 @@
+.navbar{
+    background-color: $white;
+    height: $nav-height;
+
+    &-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }   
+
+    &-menu{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: $font-size-base;
+
+        a.dropdown{
+            text-decoration: none;
+            font-size: $font-size-md;
+            font-weight: 500;
+            color: $text-light;
+            transition: .3s all;
+
+            &:hover{
+                color: $text;
+                font-weight: 600;
+            }
+        }
+       
+    }
+}
