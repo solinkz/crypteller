@@ -1,0 +1,19 @@
+.owl-carousel{
+    
+    .owl-dots{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 4rem;
+        button{
+            width: .9rem;
+            height: .9rem;
+            border-radius: 50%;
+            background-color: $light;
+
+            &.active{
+                background-color: $primary;
+            }
+        }
+    }
+}

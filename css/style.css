@@ -7521,6 +7521,29 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif; }
 
+h1 .h1, .h1 .h1 {
+  font-size: 3.2rem; }
+
+h2 .h2, .h2 .h2 {
+  font-size: 2.25rem; }
+
+h3 .h3, .h3 .h3 {
+  font-size: 1.75rem; }
+
+h4 .h4, .h4 .h4 {
+  font-size: 1.3rem; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-weight: 700;
+  color: #071945; }
+
+p {
+  font-size: 0.9rem;
+  color: #3E507D; }
+
+.subheading {
+  font-size: 1.3rem; }
+
 .btn-sm, .btn-group-sm > .btn {
   font-size: .9rem  !important; }
 
@@ -7531,6 +7554,46 @@ body {
   .btn-secondary:hover {
     background-color: #164BCC;
     color: #ffffff; }
+
+.brands-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  opacity: .5; }
+
+.owl-carousel .owl-dots {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 4rem; }
+  .owl-carousel .owl-dots button {
+    width: .9rem;
+    height: .9rem;
+    border-radius: 50%;
+    background-color: #EDF1FD; }
+    .owl-carousel .owl-dots button.active {
+      background-color: #164BCC; }
+
+.testimonial-container {
+  padding: 8rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 0.25rem 7rem rgba(22, 75, 204, 0.2);
+  border-radius: 1rem; }
+  .testimonial-container .img {
+    width: 100px;
+    height: 100px; }
+    .testimonial-container .img img {
+      width: 100%; }
+
+.hero {
+  background-image: url("../img/world-svg.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: calc(100vh - 6.25rem);
+  display: flex;
+  align-items: center; }
+  .hero h1, .hero .h1, .hero p {
+    margin-bottom: 2rem; }
 
 .navbar {
   background-color: #ffffff;
@@ -7554,3 +7617,37 @@ body {
       .navbar-menu a.dropdown:hover {
         color: #3E507D;
         font-weight: 600; }
+
+.section {
+  padding: 10rem 0;
+  position: relative; }
+
+.split-part img.brand {
+  margin-bottom: 4rem; }
+
+.split-part-left h3, .split-part-left .h3 {
+  margin-bottom: 2rem; }
+
+.split-part-left p {
+  margin-bottom: 4rem; }
+
+.split-part-right {
+  background-color: #071945;
+  color: #ffffff;
+  padding: 4rem 5rem;
+  width: 60%;
+  border-radius: 2rem 0 0 2rem;
+  position: absolute;
+  right: 0; }
+  .split-part-right h3, .split-part-right .h3, .split-part-right p {
+    color: #ffffff; }
+  .split-part-right h3, .split-part-right .h3 {
+    margin-bottom: 4rem; }
+  .split-part-right .icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1rem; }

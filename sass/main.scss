@@ -6,7 +6,14 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 @import 'base/base';
+@import 'base/typography';
 
 @import 'components/button';
+@import 'components/brands';
+@import 'components/owl-carousel';
+@import 'components/testimonial';
 
+@import 'layouts/hero';
 @import 'layouts/navbar';
+@import 'layouts/section';
+@import 'layouts/split-part';
