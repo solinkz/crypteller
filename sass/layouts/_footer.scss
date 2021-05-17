@@ -1,0 +1,21 @@
+.footer{
+    &-menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        
+        ul{
+            h5{
+                font-size: 1rem;
+                color: $white;
+            }
+
+            .nav-link{
+                font-size: $font-size-sm;
+                padding-left: 0;
+                color: rgba($white, .6);
+                
+            }
+        }
+    }
+}

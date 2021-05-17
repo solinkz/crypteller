@@ -4,7 +4,7 @@
     background-size: cover;
     color: $white;
 
-    .support-coins{
+    &-coins{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 6rem;
@@ -25,5 +25,17 @@
     h2.h1, p{
         margin-bottom: 1rem;
         color: $white;
+    }
+
+    &-extra{
+        width: 867px;
+        margin: 0 auto;
+        border-radius: 1rem;
+        padding: 3rem;
+        margin-top: -6rem;
+        background-color: $white;
+        box-shadow: 0 .25rem 7rem rgba($primary, 0.2);
+        position: relative;
+        z-index: 2;
     }
 }

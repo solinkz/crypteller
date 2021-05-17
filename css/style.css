@@ -7605,21 +7605,43 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff; }
-  .support .support-coins {
+  .support-coins {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 6rem;
     row-gap: 2rem; }
-    .support .support-coins-item {
+    .support-coins-item {
       display: flex;
       align-items: center;
       flex-direction: column;
       gap: .5rem; }
-      .support .support-coins-item img {
+      .support-coins-item img {
         width: 4rem; }
   .support h2.h1, .support .h1.h2, .support p {
     margin-bottom: 1rem;
     color: #ffffff; }
+  .support-extra {
+    width: 867px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin-top: -6rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.25rem 7rem rgba(22, 75, 204, 0.2);
+    position: relative;
+    z-index: 2; }
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem; }
+  .footer-menu ul h5, .footer-menu ul .h5 {
+    font-size: 1rem;
+    color: #ffffff; }
+  .footer-menu ul .nav-link {
+    font-size: 0.75rem;
+    padding-left: 0;
+    color: rgba(255, 255, 255, 0.6); }
 
 .hero {
   background-image: url("../img/world-svg.svg");
