@@ -39,3 +39,30 @@
         }
     }
 }
+
+.split-img{
+    &-1{
+        padding-bottom: 20rem;
+    }
+    &-2{
+        margin-top: -18rem;
+    }
+    .brand{
+        margin-bottom: 2rem;
+    }
+    .smaller-img,
+    .large-img{
+        border-radius: 1rem;
+    }
+    .smaller-img{
+        margin-bottom: 2rem;
+    }
+    .large-img {
+        img{
+            width: 100%;
+        }
+    }
+    h3,p{
+        margin-bottom: 2rem;
+    }
+}
