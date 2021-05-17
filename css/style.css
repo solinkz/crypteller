@@ -7585,6 +7585,42 @@ p {
     .testimonial-container .img img {
       width: 100%; }
 
+.showcase-container {
+  padding: 10rem 4rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.25rem 7rem rgba(22, 75, 204, 0.2);
+  border-radius: 1rem; }
+
+.showcase .img {
+  position: absolute;
+  left: -.5rem;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.showcase h2, .showcase .h2, .showcase p {
+  margin-bottom: 1rem; }
+
+.support {
+  background-image: url("../img/support-crypto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff; }
+  .support .support-coins {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 6rem;
+    row-gap: 2rem; }
+    .support .support-coins-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: .5rem; }
+      .support .support-coins-item img {
+        width: 4rem; }
+  .support h2.h1, .support .h1.h2, .support p {
+    margin-bottom: 1rem;
+    color: #ffffff; }
+
 .hero {
   background-image: url("../img/world-svg.svg");
   background-repeat: no-repeat;
