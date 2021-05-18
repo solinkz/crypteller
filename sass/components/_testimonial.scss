@@ -1,11 +1,13 @@
 .testimonial{
 
     &-container{
-        padding: 8rem 0;
+        padding: 8rem 2rem;
         background-color: $white;   
         box-shadow: 0 .25rem 7rem rgba($primary, 0.2);
         border-radius: 1rem;
-
+        @include respond(tab){
+            padding: 8rem 0;
+        }
         .img{
             width: 100px;
             height: 100px;

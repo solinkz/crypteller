@@ -1,9 +1,12 @@
 .footer{
     &-menu{
         display: flex;
-        justify-content: space-between;
         gap: 2rem;
-        
+        flex-wrap: wrap;
+        @include respond(tab){
+            justify-content: space-between;
+
+        }
         ul{
             h5{
                 font-size: 1rem;

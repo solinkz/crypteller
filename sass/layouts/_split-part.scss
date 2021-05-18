@@ -15,11 +15,16 @@
     &-right{
         background-color: $dark;
         color: $white;
-        padding: 4rem 5rem;
-        width: 60%;
-        border-radius: 2rem 0 0 2rem;
-        position: absolute;
-        right: 0;
+        padding: 4rem 2rem;
+        border-radius: 1rem;
+        @include respond(desktop){
+            position: absolute;
+            padding: 4rem 5rem;
+            right: 0;
+            width: 60%;
+            border-radius: 2rem 0 0 2rem;
+
+        }
 
         h3, p{
             color: $white;
@@ -53,6 +58,11 @@
     .smaller-img,
     .large-img{
         border-radius: 1rem;
+        display: none;
+
+        @include respond(desktop){
+            display: block;
+        }
     }
     .smaller-img{
         margin-bottom: 2rem;

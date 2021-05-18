@@ -1,5 +1,5 @@
 .hero{
-    background-image: url('../img/world-svg.svg');
+    background-image: linear-gradient(to left, rgba($white, .8), rgba($white, .8)), url('../img/world-svg.svg');
     background-repeat: no-repeat;
     background-position: right center;
     height: calc(100vh - #{$nav-height});

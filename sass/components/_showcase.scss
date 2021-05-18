@@ -1,16 +1,24 @@
 .showcase{
     &-container{
-        padding: 10rem 4rem;
+        padding: 10rem 2rem;
         background-color: $white;   
         box-shadow: 0 .25rem 7rem rgba($primary, 0.2);
         border-radius: 1rem;
+        @include respond(tab){
+            padding: 10rem 4rem;
+
+        }
     }
 
     .img{
-        position: absolute;
-        left: -.5rem;
-        top: 50%;
-        transform: translateY(-50%);
+        width: 100%;
+        @include respond(desktop){  
+            width: auto;
+            position: absolute;
+            left: -.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
 
     h2,p{

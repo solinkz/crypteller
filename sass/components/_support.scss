@@ -7,8 +7,12 @@
     &-coins{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 6rem;
+        column-gap: 2rem;
         row-gap: 2rem;
+        @include respond(desktop){
+            column-gap: 6rem;
+
+        }
 
         &-item{
             display: flex;
@@ -28,7 +32,6 @@
     }
 
     &-extra{
-        width: 867px;
         margin: 0 auto;
         border-radius: 1rem;
         padding: 3rem;
@@ -37,5 +40,11 @@
         box-shadow: 0 .25rem 7rem rgba($primary, 0.2);
         position: relative;
         z-index: 2;
+        width: 100%;
+        
+        @include respond(desktop){
+            width: 867px;
+
+        }
     }
 }
